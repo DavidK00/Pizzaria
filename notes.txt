@@ -1,0 +1,23 @@
+Django
+
+pip install -r requirements.txt  
+
+django-admin startproject learning_log .
+py manage.py migrate 
+#migrates changes to database
+
+py manage.py runserver
+#check if server runs, clikc rocketship, ctrl + c stops server
+
+py manage.py startapp MainApp 
+#create a start app *learning logs = mainapp
+
+py manage.py makemigrations
+#migrate app
+
+py manage.py migrate
+
+py manage.py createsuperuser 
+
+user: david_koo1
+password: sillywilly
