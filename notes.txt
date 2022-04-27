@@ -21,3 +21,5 @@ py manage.py createsuperuser
 
 user: david_koo1
 password: sillywilly
+
+requests on html: get and post- press submit and save to database

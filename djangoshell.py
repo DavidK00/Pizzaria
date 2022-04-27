@@ -11,7 +11,7 @@ topics = Topic.objects.all() #SELECT * from topic
 for t in topics:
     print(t.id, '  ', t.text)
 
-t = Topic.objects.get(id = 1)
+t = Topic.objects.get(id=1)
 
 print(t.text)
 print(t.date_added)
