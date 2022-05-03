@@ -1,4 +1,4 @@
-#!p:\advpy\learninglogsproject\.venv\scripts\python.exe
+#!C:\Users\David Koo\Documents\AdvPy\pizza\DjangoLearningLog\.venv\Scripts\python.exe
 from django.core import management
 
 if __name__ == "__main__":
