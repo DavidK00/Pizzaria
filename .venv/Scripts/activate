@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="P:\AdvPy\LearningLogsProject\.venv"
+VIRTUAL_ENV="C:\Users\David Koo\Documents\AdvPy\pizza\DjangoLearningLog\.venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

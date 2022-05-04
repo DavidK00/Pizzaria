@@ -27,7 +27,7 @@ function global:deactivate ([switch]$NonDestructive) {
 
 deactivate -nondestructive
 
-$env:VIRTUAL_ENV="P:\AdvPy\LearningLogsProject\.venv"
+$env:VIRTUAL_ENV="C:\Users\David Koo\Documents\AdvPy\pizza\DjangoLearningLog\.venv"
 
 if (! $env:VIRTUAL_ENV_DISABLE_PROMPT) {
     # Set the prompt to include the env name
