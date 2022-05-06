@@ -1,0 +1,40 @@
+{% extends "MainApp/base.html" %}
+
+{% block content %}
+
+
+<p> {{ indiv_pizza }} </p>
+<ul>
+    {% for t in toppings %}
+    <li>
+        <a href="{% url 'MainApp:pizza' p.id %}" ></a>
+         {{ t.text }}
+    </li>
+    {% empty %}
+    <li> There are no Pizzas</li>
+    {% endfor %}
+
+</ul>
+
+
+<hr>
+
+<div data-gb-custom-block data-tag="for"></div>
+
+    <div class="comment">
+        <div class="date">{{ comment.created_date }}</div>
+        <strong>{{ comment.author }}</strong>
+        <p>{{ comment.text|linebreaks }}</p>
+    </div>
+
+<div data-gb-custom-block data-tag="empty">
+
+    <p>No comments here yet :(</p>
+
+</div>
+
+<hr>
+
+
+
+{% endblock content %}
